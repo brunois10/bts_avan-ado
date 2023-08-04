@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+}
+
+.carousel-item img {
+    height: 666px;
+}
+
+#carouselImg {
+    margin-bottom: 20px;
+}
+
+.card {
+    height: 557px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    
+    .container {
+        max-width: 90%;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .card {
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .container {
+        max-width: 90%;
+    }
+
+    .row {
+        display: grid;
+        grid-template-columns: repeat(2, 49%)
+    }
+
+    .col-4 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        height: 100%;
+    }
+}

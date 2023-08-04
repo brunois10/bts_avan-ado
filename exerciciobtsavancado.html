@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página bootstrap</title>
+    <link rel="stylesheet" href="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+            <h1>CatShop bootstrap</h1>
+    </header>
+    <div class="container">
+        <div id="carouselImg" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="1000" class="carousel-item active">
+                    <img class="d-block w-100" src="img/cat-2083492_1280 (4).jpg" >
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div data-bs-interval="1000" class="carousel-item">
+                    <img class="d-block w-100" src="img/kittens-3535404_1280.jpg" >
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div data-bs-interval="1000" class="carousel-item">
+                    <img class="d-block w-100" src="img/maine-coon-694730_1280.jpg" >
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carouselImg" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carouselImg" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="carouselImg" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="carouselImg" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="carouselImg" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <article class="card">
+                    <img src="img/item 1.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Tapete de boas-vindas</h4>
+                        <p class="card-text">R$199,99</p>
+                        <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                    </div>
+                    <footer class="card-footer">
+                        Frete Grátis para todas as regiões do Brasil
+                    </footer>
+                </article>
+            </div>
+            <div class="col-4">
+                <article class="card">
+                    <img src="img/item 2.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Laçinho para gatos</h4>
+                        <p class="card-text">R$29,99</p>
+                        <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                    </div>
+                    <footer class="card-footer">
+                        Frete Grátis para todas as regiões do Brasil
+                    </footer>
+                </article>
+            </div>
+            <div class="col-4">
+                <article class="card">
+                    <img src="img/item 3.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Educador sanitário</h4>
+                        <p class="card-text">R$249,99</p>
+                        <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                    </div>
+                    <footer class="card-footer">
+                        Frete Grátis para todas as regiões do Brasil
+                    </footer>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+</body>
+</html>
